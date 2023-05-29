@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group>
+
+        <item
+            android:title="@string/home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"/>
+
+        <item
+            android:title="@string/about"
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"/>
+
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+
+            <item
+                android:title="@string/login"
+                android:icon="@drawable/nav_login"
+                android:id="@+id/nav_login"/>
+
+        </menu>
+
+    </item>
+
+</menu>
